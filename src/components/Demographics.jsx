@@ -40,7 +40,7 @@ const Demographics = () => {
   const countries = countryData[selectedOption];
 
   return (
-    <div className="bg-black text-white w-full rounded-lg h-[300px] border-[1px] border-[#272727]">
+    <div className="bg-black text-white w-full rounded-lg h-[300px] border-[1px] border-[#272727] ">
       <div className="flex xlg:flex-row flex-col xlg:gap-[0] gap-[52px]">
         <div className="xlg:w-1/2 relative">
           <div className="flex justify-between items-center ps-[19px] pt-[18px] pb-[13px]">
@@ -118,7 +118,7 @@ const Demographics = () => {
           </div>
         </div>
 
-        <div className="xlg:w-1/2 ps-[50px] xlg:pt-[29px] pt-[10px] xlg:pb-[0px] pb-[10px] pe-[21px] xlg:border-[0px] rounded-lg border-[1px] border-[#272727]">
+        <div className="bg-black xlg:w-1/2 ps-[50px] xlg:pt-[29px] pt-[10px] xlg:pb-[0px] pb-[10px] pe-[21px] xlg:border-[0px] rounded-lg border-[1px] border-[#272727]">
           {countries.map((country, index) => (
             <div key={index} className="flex flex-col mb-4">
               <div className="flex items-center justify-between mb-1">

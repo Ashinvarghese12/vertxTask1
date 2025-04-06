@@ -44,8 +44,8 @@ export default function Overview() {
                         <div className="rounded-lg xmx:min-w-[430px] xlg:w-3/4 w-full  h-[285px] mb-[14.89px] border-[1px] border-[#272727]">
                             <VisitorsChart />
                         </div>
-                        <div className="rounded-lg border border-[#272727] xlg:w-1/4 w-full xlg:min-w-[250px] xmx:min-w-[430px] xlg:h-[285px] xmx:h-[220px] h-[200px]">
-                            <div className="bg-black text-white ps-[19px] pt-[15px]">
+                        <div className="bg-black rounded-lg border border-[#272727] xlg:w-1/4 w-full xlg:min-w-[250px] xmx:min-w-[430px] xlg:h-[285px] xmx:h-[220px] h-[200px]">
+                            <div className=" text-white ps-[19px] pt-[15px]">
                                 <div className="flex flex-row justify-between  pe-[20px]">
                                     <p className="text-[20px] font-[700]">Insights</p>
                                     <div className="relative inline-block text-left ps-[19px]">
